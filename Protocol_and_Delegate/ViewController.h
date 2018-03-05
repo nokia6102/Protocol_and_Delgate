@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "TakoButton.h"
+@interface ViewController : UIViewController<takoButtonDelegate,takoButtonDataSource>
 
 @end
 

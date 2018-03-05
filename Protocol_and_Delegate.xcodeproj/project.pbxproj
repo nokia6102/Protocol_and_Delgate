@@ -15,6 +15,7 @@
 		25AA9B34203D15DA00D505EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AA9B33203D15DA00D505EF /* main.m */; };
 		25AA9B3E203D15DA00D505EF /* Protocol_and_DelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AA9B3D203D15DA00D505EF /* Protocol_and_DelegateTests.m */; };
 		25AA9B49203D15DA00D505EF /* Protocol_and_DelegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AA9B48203D15DA00D505EF /* Protocol_and_DelegateUITests.m */; };
+		25AA9B5A203D17E800D505EF /* TakoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AA9B59203D17E800D505EF /* TakoButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		25AA9B44203D15DA00D505EF /* Protocol_and_DelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Protocol_and_DelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AA9B48203D15DA00D505EF /* Protocol_and_DelegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Protocol_and_DelegateUITests.m; sourceTree = "<group>"; };
 		25AA9B4A203D15DA00D505EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25AA9B57203D16EF00D505EF /* takoButtonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = takoButtonProtocol.h; sourceTree = "<group>"; };
+		25AA9B58203D17E800D505EF /* TakoButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakoButton.h; sourceTree = "<group>"; };
+		25AA9B59203D17E800D505EF /* TakoButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakoButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,9 @@
 				25AA9B25203D15DA00D505EF /* AppDelegate.m */,
 				25AA9B27203D15DA00D505EF /* ViewController.h */,
 				25AA9B28203D15DA00D505EF /* ViewController.m */,
+				25AA9B57203D16EF00D505EF /* takoButtonProtocol.h */,
+				25AA9B58203D17E800D505EF /* TakoButton.h */,
+				25AA9B59203D17E800D505EF /* TakoButton.m */,
 				25AA9B2A203D15DA00D505EF /* Main.storyboard */,
 				25AA9B2D203D15DA00D505EF /* Assets.xcassets */,
 				25AA9B2F203D15DA00D505EF /* LaunchScreen.storyboard */,
@@ -267,6 +274,7 @@
 			files = (
 				25AA9B29203D15DA00D505EF /* ViewController.m in Sources */,
 				25AA9B34203D15DA00D505EF /* main.m in Sources */,
+				25AA9B5A203D17E800D505EF /* TakoButton.m in Sources */,
 				25AA9B26203D15DA00D505EF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
